@@ -52,6 +52,7 @@ namespace DatingApp.WebAPI
             {
                 endpoints.MapControllers();
             });
+            
         }
     }
 }
