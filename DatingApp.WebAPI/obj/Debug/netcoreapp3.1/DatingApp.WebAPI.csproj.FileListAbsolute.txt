@@ -48,3 +48,8 @@ D:\Projetos\NET\DatingApp\DatingApp.WebAPI\obj\Debug\netcoreapp3.1\staticwebasse
 D:\Projetos\NET\DatingApp\DatingApp.WebAPI\obj\Debug\netcoreapp3.1\DatingApp.WebAPI.dll
 D:\Projetos\NET\DatingApp\DatingApp.WebAPI\obj\Debug\netcoreapp3.1\DatingApp.WebAPI.pdb
 D:\Projetos\NET\DatingApp\DatingApp.WebAPI\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Design.dll
+D:\Projetos\NET\DatingApp\DatingApp.WebAPI\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\Projetos\NET\DatingApp\DatingApp.WebAPI\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Logging.dll
+D:\Projetos\NET\DatingApp\DatingApp.WebAPI\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Tokens.dll
+D:\Projetos\NET\DatingApp\DatingApp.WebAPI\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+D:\Projetos\NET\DatingApp\DatingApp.WebAPI\bin\Debug\netcoreapp3.1\System.IdentityModel.Tokens.Jwt.dll
