@@ -40,7 +40,8 @@ namespace DatingApp.WebAPI.Controllers {
         }
 
         [HttpPost ("login")]
-        public async Task<IActionResult> Login ([FromBody] UserForLoginDto userForLoginDto) {
+        public async Task<IActionResult> Login ([FromBody] UserForLoginDto userForLoginDto) 
+        {
             var userFromRepo = await _authRepository.Login(userForLoginDto.Username.ToLower(), 
                             userForLoginDto.Password);
 
