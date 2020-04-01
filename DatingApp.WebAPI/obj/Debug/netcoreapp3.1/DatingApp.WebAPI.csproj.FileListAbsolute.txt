@@ -56,3 +56,9 @@ D:\Projetos\NET\DatingApp\DatingApp.WebAPI\bin\Debug\netcoreapp3.1\System.Identi
 D:\Projetos\NET\DatingApp\DatingApp.WebAPI\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Authentication.JwtBearer.dll
 D:\Projetos\NET\DatingApp\DatingApp.WebAPI\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.dll
 D:\Projetos\NET\DatingApp\DatingApp.WebAPI\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\Projetos\NET\DatingApp\DatingApp.WebAPI\bin\Debug\netcoreapp3.1\Context\UserSeedData.json
+D:\Projetos\NET\DatingApp\DatingApp.WebAPI\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.JsonPatch.dll
+D:\Projetos\NET\DatingApp\DatingApp.WebAPI\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
+D:\Projetos\NET\DatingApp\DatingApp.WebAPI\bin\Debug\netcoreapp3.1\Newtonsoft.Json.Bson.dll
+D:\Projetos\NET\DatingApp\DatingApp.WebAPI\bin\Debug\netcoreapp3.1\AutoMapper.dll
+D:\Projetos\NET\DatingApp\DatingApp.WebAPI\bin\Debug\netcoreapp3.1\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
