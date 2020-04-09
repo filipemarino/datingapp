@@ -62,3 +62,4 @@ D:\Projetos\NET\DatingApp\DatingApp.WebAPI\bin\Debug\netcoreapp3.1\Microsoft.Asp
 D:\Projetos\NET\DatingApp\DatingApp.WebAPI\bin\Debug\netcoreapp3.1\Newtonsoft.Json.Bson.dll
 D:\Projetos\NET\DatingApp\DatingApp.WebAPI\bin\Debug\netcoreapp3.1\AutoMapper.dll
 D:\Projetos\NET\DatingApp\DatingApp.WebAPI\bin\Debug\netcoreapp3.1\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+D:\Projetos\NET\DatingApp\DatingApp.WebAPI\bin\Debug\netcoreapp3.1\CloudinaryDotNet.dll
