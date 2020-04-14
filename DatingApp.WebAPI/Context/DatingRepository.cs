@@ -23,14 +23,13 @@ namespace DatingApp.WebAPI.Context {
         }
 
         public async Task<User> GetUser(int id) {
-            var user = await _context.Users.Include(p => p.Photos)
-                                            .FirstOrDefaultAsync(e => e.Id == id);
+            var user = await _context.Users.FirstOrDefaultAsync(e => e.Id == id);
 
             return user;
         }
 
         public async Task<PagedList<User>> GetUsers(UserParams userParams) {
-            var users = _context.Users.Include(p => p.Photos).AsQueryable();
+            var users = _context.Users.AsQueryable();
 
             users = users.Where(x => x.Id != userParams.UserId 
                                 && x.Gender == userParams.Gender);
@@ -74,8 +73,6 @@ namespace DatingApp.WebAPI.Context {
         private async Task<IEnumerable<int>> GetUserLikes(int id, bool likers)
         {
             var user = await _context.Users.
-                Include(x => x.Likers).
-                Include(x => x.Likees).
                 FirstOrDefaultAsync(u => u.Id == id);
 
             if (likers)
@@ -117,10 +114,7 @@ namespace DatingApp.WebAPI.Context {
 
         public async Task<PagedList<Message>> GetMessagesForUser(MessageParams messageParams)
         {
-            var messages = _context.Messages
-                .Include(x => x.Sender).ThenInclude(x => x.Photos)
-                .Include(x => x.Recipient).ThenInclude(x => x.Photos)
-                .AsQueryable();
+            var messages = _context.Messages.AsQueryable();
             
             switch (messageParams.MessageContainer)
             {
@@ -146,8 +140,6 @@ namespace DatingApp.WebAPI.Context {
         public async Task<IEnumerable<Message>> GetMessageThread(int userId, int recipientId)
         {
             var messages = await _context.Messages
-                .Include(x => x.Sender).ThenInclude(x => x.Photos)
-                .Include(x => x.Recipient).ThenInclude(x => x.Photos)
                 .Where(x => x.RecipientId == userId && x.RecipientDeleted == false 
                     && x.SenderId == recipientId 
                     || x.RecipientId == recipientId 

@@ -63,3 +63,5 @@ D:\Projetos\NET\DatingApp\DatingApp.WebAPI\bin\Debug\netcoreapp3.1\Newtonsoft.Js
 D:\Projetos\NET\DatingApp\DatingApp.WebAPI\bin\Debug\netcoreapp3.1\AutoMapper.dll
 D:\Projetos\NET\DatingApp\DatingApp.WebAPI\bin\Debug\netcoreapp3.1\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
 D:\Projetos\NET\DatingApp\DatingApp.WebAPI\bin\Debug\netcoreapp3.1\CloudinaryDotNet.dll
+D:\Projetos\NET\DatingApp\DatingApp.WebAPI\bin\Debug\netcoreapp3.1\Castle.Core.dll
+D:\Projetos\NET\DatingApp\DatingApp.WebAPI\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Proxies.dll
