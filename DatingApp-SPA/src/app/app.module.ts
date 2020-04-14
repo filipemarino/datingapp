@@ -22,18 +22,20 @@ import { MemberListComponent } from './members/member-list/member-list.component
 import { ListsComponent } from './lists/lists.component';
 import { MessagesComponent } from './messages/messages.component';
 import { appRoutes } from './routes';
-import { MemberCardComponent } from './members/member-list/member-card/member-card.component';
-import { MemberDetailComponent } from './members/member-list/member-detail/member-detail.component';
+import { MemberCardComponent } from './members/member-card/member-card.component';
+import { MemberDetailComponent } from './members/member-detail/member-detail.component';
 import { MemberDetailResolver } from './_resolvers/member-detail.resolver';
 import { MemberListResolver } from './_resolvers/member-list.resolver';
-import { MemberEditComponent } from './members/member-list/member-edit/member-edit.component';
+import { MemberEditComponent } from './members/member-edit/member-edit.component';
 import { MemberEditResolver } from './_resolvers/member-edit.resolver';
 import { AlertifyService } from './_services/alertify.service';
 import { UserService } from './_services/user.service';
 import { AuthGuard } from './_guards/auth.guard';
 import { PreventUnsavedChanges } from './_guards/prevent-unsaved-changes.guard';
-import { PhotoEditorComponent } from './members/member-list/photo-editor/photo-editor.component';
+import { PhotoEditorComponent } from './members/photo-editor/photo-editor.component';
 import { ListsResolver } from './_resolvers/lists.resolver';
+import { MessagesResolver } from './_resolvers/messages.resolver';
+import { MemberMessagesComponent } from './members/member-messages/member-messages.component';
 
 
 
@@ -53,7 +55,8 @@ export function tokenGetter() {
       MemberCardComponent,
       MemberDetailComponent,
       MemberEditComponent,
-      PhotoEditorComponent
+      PhotoEditorComponent,
+      MemberMessagesComponent
    ],
    imports: [
       BrowserModule,
@@ -89,7 +92,8 @@ export function tokenGetter() {
       UserService,
       AuthGuard,
       PreventUnsavedChanges,
-      ListsResolver
+      ListsResolver,
+      MessagesResolver
    ],
    bootstrap: [
       AppComponent
